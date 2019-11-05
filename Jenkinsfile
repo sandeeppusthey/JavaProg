@@ -4,6 +4,7 @@ pipeline {
    stages {
       stage('Clone') {
          steps {
+            bat 'git clone https://github.com/sandeeppusthey/JavaProg'
             echo 'This is clone step';
          }
       }
